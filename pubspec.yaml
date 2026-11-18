@@ -1,0 +1,29 @@
+name: wave_orbit
+description: Персональный музыкальный стриминг с орбитальным плеером и локальной рекомендательной системой.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  just_audio: ^0.9.40
+  audio_service: ^0.18.15
+  youtube_explode_dart: ^2.3.6
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  http: ^1.2.2
+  palette_generator: ^0.3.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
